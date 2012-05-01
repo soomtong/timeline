@@ -15,3 +15,10 @@
 ## timeline
 
 - 엄청난 자바스트립트(jQuery 기반) 타임라인 라이브러리 [timeline.verite.co](http://timeline.verite.co "타임라인 갑") 을 사용했습니다.
+
+## redis
+
+- redis-cli 명령어
+keys *
+hgetall Timeline:1
+monitor

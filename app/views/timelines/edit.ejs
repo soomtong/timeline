@@ -1,0 +1,9 @@
+<div class="page-header"><h1>Edit timeline</h1></div>
+
+<% form_for(timeline, {action: path_to.timeline(timeline), method: 'PUT', id: "timeline_form", class: 'form-horizontal'}, function (form) { %>
+    <%- partial('timelines/form.ejs', {locals: {form: form, timeline: timeline}}) %>
+    <div class="form-actions">
+        <%- form.submit('<i class="icon-ok icon-white"></i> Update timeline', {class: 'btn btn-primary'}) %> or
+        <%- link_to('Cancel', path_to.timeline(timeline), {class: 'btn'}) %>
+    </div>
+<% });%>

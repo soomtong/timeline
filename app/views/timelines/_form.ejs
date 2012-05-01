@@ -1,0 +1,32 @@
+<%- errorMessagesFor(timeline) %>
+<div class="control-group">
+   <%- form.label("timeAt", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("timeAt") %>
+	   <span> ex) 2012, 4, 1</span>
+   </div>
+</div>
+<div class="control-group">
+   <%- form.label("title", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("title") %>
+   </div>
+</div>
+<div class="control-group">
+   <%- form.label("description", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("description", {class: "span8"}) %>
+   </div>
+</div>
+<div class="control-group">
+   <%- form.label("media", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("media", {class: "span6"}) %>
+   </div>
+</div>
+<div class="control-group">
+   <%- form.label("caption", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("caption", {class: "span6"}) %>
+   </div>
+</div>
