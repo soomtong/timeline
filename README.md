@@ -19,6 +19,6 @@
 ## redis
 
 - redis-cli 명령어
-keys *
-hgetall Timeline:1
-monitor
+* keys *
+* hgetall Timeline:1
+* monitor
