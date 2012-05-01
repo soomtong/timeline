@@ -1,10 +1,9 @@
-zeston development log timeline
-===============================
+제스트온 개발 노트 이력 추적
+============================
 [dev.zeston.kr](http://dev.zeston.kr "이동")
 
-제스트온 개발 노트 이력 추적
+# nodejs with railway framework, redis database
 
-# nodejs
 ## railway frameword
 
 - Ubuntu server 1204
