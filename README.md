@@ -19,6 +19,9 @@
 ## redis
 
 - redis-cli 명령어
-- 현재 디비의 전체 키를 보여줌 ` keys *`
-- 해당 키의 데이터를 보여줌 ` hgetall Timeline:1`
-- 모니터링 모드 ` monitor`
+
+현재 디비의 전체 키를 보여줌 ` keys *`
+
+해당 키의 데이터를 보여줌 ` hgetall Timeline:1`
+
+모니터링 모드 ` monitor`
