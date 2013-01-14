@@ -4,7 +4,7 @@
 
 # NodeJS With RailwayJS Framework, Redis Database
 
-## RailwayJS Frameword
+## RailwayJS Framework
 
 - UBUNTU 1204 Server Default
 - TowerJS, Monorail, RailwayJS 중 RailwayJS 가 가장 쉽게 설치되고 프로젝트 생성이 되었습니다. 나머지 두 녀석은 뭐 좀 하다가
